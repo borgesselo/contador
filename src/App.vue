@@ -22,8 +22,8 @@
   <div>
     <h1>Contador</h1>
     <p> {{ contador }} </p>
-    <button @click="incrementar">Incrementar</button>
-    <button @click="decrementar">Decrementar</button>
+    <button @click="incrementar">+</button>
+    <button @click="decrementar">-</button>
     <button @click="reiniciar">Reiniciar</button>
   </div>
 </template>
